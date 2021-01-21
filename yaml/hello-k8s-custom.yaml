@@ -31,4 +31,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: I just deployed this on Kubernetes using ArgoCD GitOps Operator!
+          value: Argo CD was a success!
