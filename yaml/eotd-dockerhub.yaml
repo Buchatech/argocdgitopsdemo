@@ -17,7 +17,7 @@ metadata:
   labels:
     app: eotd
 spec:
-  replicas: 10
+  replicas: 1
   selector:
     matchLabels:
       app: eotd
