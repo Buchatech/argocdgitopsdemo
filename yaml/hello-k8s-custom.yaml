@@ -31,4 +31,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Argo cd and Gitops demo.
+          value: Argo cd and Gitops demo successful.
