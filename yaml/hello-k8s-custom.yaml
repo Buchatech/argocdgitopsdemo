@@ -15,7 +15,7 @@ kind: Deployment
 metadata:
   name: hello-kubernetes-custom
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
       app: hello-kubernetes-custom
@@ -31,4 +31,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Argo cd and Gitops.
+          value: Argo cd and Gitops successful.
